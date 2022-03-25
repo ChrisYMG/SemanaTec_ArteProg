@@ -60,4 +60,7 @@ Los núcleos de filtro laplaciano generalmente contienen valores negativos en un
 
 ![laplace](https://user-images.githubusercontent.com/102307137/160052477-e8a5d5fe-6b0f-4d9f-992f-3ed5db0fc5ea.jpg)
 
+**Gaussian Blur:**
+
+El desenfoque gaussiano es un tipo de filtro de desenfoque de imagen que utiliza una función gaussiana (que también expresa la distribución normal en estadística) para calcular la transformación que se aplicará a cada píxel de la imagen. La fórmula de una función gaussiana en una dimensión es:
 
