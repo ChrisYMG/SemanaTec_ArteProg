@@ -41,11 +41,11 @@ Después de los módulos se importan las funciones del programa kernels.py, que 
 
 Los filtros laplacianos son filtros derivados utilizados para encontrar áreas de cambio rápido (bordes) en las imágenes. Dado que los filtros derivados son muy sensibles al ruido, es común suavizar la imagen (por ejemplo, usando un filtro gaussiano) antes de aplicar el laplaciano. Este proceso de dos pasos se denomina operación laplaciana de gaussiana o Laplacian of Gaussian (LoG). Para conseguir este filtro, combinamos las funciones laplaciana y gaussiana, obteniendo una sola ecuación:
 
-![ecuacion_log](https://user-images.githubusercontent.com/102307137/160051584-6cbd1eef-cad9-41d2-b233-cf7be56f41b6.jpg)
+![log_ec](https://user-images.githubusercontent.com/102307137/160053445-18f00813-03ac-45b2-86f5-b097f7da383a.jpg)
 
 Un kernel discreto para el caso de σ = 1.4 viene dado por:
 
-![kernel_log](https://user-images.githubusercontent.com/102307137/160051689-9a5c01cf-639e-438d-8aa2-426e10868267.jpg)
+![log_kernel](https://user-images.githubusercontent.com/102307137/160053458-6a011c3a-0c6f-4642-a5cc-239c37be6be8.jpg)
 
 El operador LoG toma la segunda derivada de la imagen. Donde la imagen es uniforme, el LoG dará cero. Dondequiera que ocurra un cambio, el LoG dará una respuesta positiva en el lado más oscuro y una respuesta negativa en el lado más claro.
 
