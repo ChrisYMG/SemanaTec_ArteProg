@@ -5,7 +5,6 @@ def MexicanHat(sigma, K):
     A=numpy.zeros((K,K)) #Devulve matriz formada por ceros
     for x in range(0,K):
         for y in range(0,K):
-            #Formula de MexicanHat
             A[x][y] = 1/(numpy.pi*sigma**4) * (1-(1/2)*((x**2+y**2)/(sigma**2))) * numpy.exp(-(x**2+y**2)/(2*sigma**2))
     return A
 
