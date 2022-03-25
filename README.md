@@ -9,6 +9,7 @@ María Fernanda Zavala Ramírez A01769162
 Ricardo Adolfo González Terán A01769410
 
 # Objetivo
+
 Generar un código de python mediante el cual se aplicarán diferentes kernel a una imagen en específico, obteniendo así una imagen distorsionada por los filtros utilizados. Mediante la aplicación de los conceptos vistos en clase se obtendrá como salida las funciones de Mexican Hat, Gaussian Blur, Top Sobel, Laplacian of Gaussian y Laplace.
 
 # Resumen del repositorio
@@ -27,7 +28,7 @@ Después de los módulos se importan las funciones del programa kernels.py, que 
 
 # Desarrollo
 
-**Funciones**
+##Funciones
 
 **Laplacian of Gaussian:**
 
