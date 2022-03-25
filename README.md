@@ -41,3 +41,6 @@ Un kernel discreto para el caso de σ = 1.4 viene dado por:
 
 El operador LoG toma la segunda derivada de la imagen. Donde la imagen es uniforme, el LoG dará cero. Dondequiera que ocurra un cambio, el LoG dará una respuesta positiva en el lado más oscuro y una respuesta negativa en el lado más claro.
 
+**Top Sobel:**
+
+Los filtros conocidos como “Sobel” tienen el objetivo de hacer énfasis en las diferencias en píxeles adyacentes en una dirección en específico. Funciona como una derivada, calculando la intensidad de la diferencia entre dos píxeles. Se suele utilizar para poder encontrar más fácilmente los bordes dentro de la imagen. Este kernel utiliza una de las siguientes matrices dependiendo de la dirección que se quiera enfatizar:
