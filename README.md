@@ -32,9 +32,12 @@ Funciones
 Laplacian of Gaussian:
 
 Los filtros laplacianos son filtros derivados utilizados para encontrar áreas de cambio rápido (bordes) en las imágenes. Dado que los filtros derivados son muy sensibles al ruido, es común suavizar la imagen (por ejemplo, usando un filtro gaussiano) antes de aplicar el laplaciano. Este proceso de dos pasos se denomina operación laplaciana de gaussiana o Laplacian of Gaussian (LoG). Para conseguir este filtro, combinamos las funciones laplaciana y gaussiana, obteniendo una sola ecuación:
-![ecuacion](https://user-images.githubusercontent.com/102307137/160051202-0b57d9d9-e48b-4896-9057-0ce5554c251f.jpg)
+
+![ecuacion_log](https://user-images.githubusercontent.com/102307137/160051584-6cbd1eef-cad9-41d2-b233-cf7be56f41b6.jpg)
 
 Un kernel discreto para el caso de σ = 1.4 viene dado por:
-![kernel_log](https://user-images.githubusercontent.com/102307137/160051191-238ed6c2-991c-413e-8267-1c3fa39a5d0a.jpg)
+
+![kernel_log](https://user-images.githubusercontent.com/102307137/160051689-9a5c01cf-639e-438d-8aa2-426e10868267.jpg)
+
 El operador LoG toma la segunda derivada de la imagen. Donde la imagen es uniforme, el LoG dará cero. Dondequiera que ocurra un cambio, el LoG dará una respuesta positiva en el lado más oscuro y una respuesta negativa en el lado más claro.
 
