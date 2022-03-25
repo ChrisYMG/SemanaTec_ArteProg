@@ -10,16 +10,7 @@ def MexicanHat(sigma, K):
 
 # TopSobel Omar Alejandro Rodríguez Valencia
 def TopSobel(K):
-    A = numpy.zeros((K,K))
-    A[K//2][K//2] = 0
-    A[K//2 + 1][K//2] = -2
-    A[K//2 - 1][K//2] = 2
-    A[K//2][K//2 + 1] = 0
-    A[K//2][K//2 - 1] = 0
-    A[K//2 + 1][K//2 + 1] = -1
-    A[K//2 + 1][K//2 - 1] = -1
-    A[K//2 - 1][K//2 + 1] = 1
-    A[K//2 - 1][K//2 - 1] = 1
+    A = A = numpy.array([[-2,-1,0],[-1,1,1],[0,1,2]])
     return A
 
 # GaussBLur Christian Yael Mejía Galindo
