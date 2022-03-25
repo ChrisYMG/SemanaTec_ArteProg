@@ -69,3 +69,7 @@ El desenfoque gaussiano es un tipo de filtro de desenfoque de imagen que utiliza
 
 ![gauss](https://user-images.githubusercontent.com/102307137/160052932-71d45833-f276-4f2a-9f00-705c047e47e2.jpg)
 
+**Mexican Hat (Wavelet de Ricker):**
+El mexican hat también conocido como Ricker wavelet es la segunda derivada negativa normalizada de una función gaussiana. Tras realizar una investigación y obtener la ecuación correspondiente, simplemente se transformó está a código generando así la gráfica mostrada a continuación: 
+
+![mexican](https://user-images.githubusercontent.com/102307137/160058588-0672c5bc-a76a-4cd1-a7d6-c5cb120b569d.jpg)
