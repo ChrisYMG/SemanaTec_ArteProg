@@ -47,4 +47,12 @@ Los filtros conocidos como “Sobel” tienen el objetivo de hacer énfasis en l
 
 ![top_sobel](https://user-images.githubusercontent.com/102307137/160052363-cacccba0-bd54-45fd-a2cf-0170e5cfb77b.jpg)
 
+**Laplace:**
+
+El filtro laplace es un detector de bordes que se utiliza para calcular las segundas derivadas de una imagen, midiendo la velocidad a la que cambian las primeras derivadas. Esto determina si un cambio en los valores de píxeles adyacentes se debe a un borde o a una progresión continua.
+
+Los núcleos de filtro laplaciano generalmente contienen valores negativos en un patrón cruzado, centrado dentro de la matriz. Las esquinas son valores cero o positivos. El valor central puede ser negativo o positivo. Este kernel está dado por la siguiente fórmula:
+
+![laplace](https://user-images.githubusercontent.com/102307137/160052477-e8a5d5fe-6b0f-4d9f-992f-3ed5db0fc5ea.jpg)
+
 
