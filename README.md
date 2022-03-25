@@ -1,6 +1,6 @@
 # SemanaTec_ArteProg
 
-# Team Members
+# Miembros del equipo
 
 Jorge Ramón González Ozorno A0137845
 
