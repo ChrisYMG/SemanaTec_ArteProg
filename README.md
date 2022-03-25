@@ -3,9 +3,13 @@
 # Team Members
 
 Jorge Ramón González Ozorno A0137845
+
 Christian Yael Mejía Galindo A01770081
+
 Omar Alejandro Rodríguez Valencia A01769948
+
 María Fernanda Zavala Ramírez A01769162
+
 Ricardo Adolfo González Terán A01769410
 
 # Objetivo
@@ -28,7 +32,7 @@ Después de los módulos se importan las funciones del programa kernels.py, que 
 
 # Desarrollo
 
-##Funciones
+## Funciones
 
 **Laplacian of Gaussian:**
 
