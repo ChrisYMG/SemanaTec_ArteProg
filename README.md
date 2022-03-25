@@ -24,8 +24,11 @@ SemanaTec_ArteProg/mr_increible.jpg at master · ChrisYMG/SemanaTec_ArteProg (gi
 En el programa se ocupan diferentes módulos de Python para poder facilitar la visualización y el manejo de datos en el cálculo de los kernels y de la visualización de las imágenes a las que se les aplicarán los diferentes kernels, los módulos que se utilizan son: 
 
 **Numpy** (Librería para manejo de números y operaciones, la cual también posee herramientas para las matrices)
+
 **Pillow**  (Librería para poder editar parámetros de las imágenes, por ejemplo, convertirlas a escala de grises)
+
 **MatPlotLib** (Librería para poder generar y mostrar gráficas con distintos elementos en diferentes ventanas y así poder mostrar el resultado de los kernels)
+
 **Scipy** (Librería para poder aplicar las covaleciones a las imágenes aplicando los kernels a estas) 
 
 Después de los módulos se importan las funciones del programa kernels.py, que se muestran a continuación en la fase de desarrollo.
