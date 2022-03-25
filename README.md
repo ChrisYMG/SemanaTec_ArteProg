@@ -44,3 +44,7 @@ El operador LoG toma la segunda derivada de la imagen. Donde la imagen es unifor
 **Top Sobel:**
 
 Los filtros conocidos como “Sobel” tienen el objetivo de hacer énfasis en las diferencias en píxeles adyacentes en una dirección en específico. Funciona como una derivada, calculando la intensidad de la diferencia entre dos píxeles. Se suele utilizar para poder encontrar más fácilmente los bordes dentro de la imagen. Este kernel utiliza una de las siguientes matrices dependiendo de la dirección que se quiera enfatizar:
+
+![top_sobel](https://user-images.githubusercontent.com/102307137/160052363-cacccba0-bd54-45fd-a2cf-0170e5cfb77b.jpg)
+
+
